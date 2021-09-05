@@ -22,7 +22,6 @@ func main(){
   fmt.Println("Input your numeric : ")
   fmt.Scanf("%f",&idr)
   usd = idr * 0.000071
-  fmt.Printf("%f\n",usd)
 fmt.Print("IDR : Rp. ", FormatRupiah(idr),",00\n")
 fmt.Println("USD : $ ", FormatDollar(usd))
 }
